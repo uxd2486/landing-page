@@ -1,8 +1,47 @@
 body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: stretch;
+  justify-content: center;
   align-items: center;
 }
 
+.footer, 
+.header {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 18px;
+}
+
+.footer {
+  margin-top: auto;
+  justify-content: center;
+}
+
+.header {
+  margin-bottom: auto
+}
+
+.section-one{
+  flex: 1;
+}
+
+.section-two{
+  flex: 1;
+}
+
+.section-three{
+  flex: 1;
+}
+
+.section-four{
+  flex: 1;
+}
