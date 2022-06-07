@@ -27,7 +27,18 @@ body {
 }
 
 .header {
-  margin-bottom: auto
+  margin-bottom: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header-links a {
+  padding: 18px;  
 }
 
 .section-one{
