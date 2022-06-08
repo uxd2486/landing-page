@@ -1,5 +1,11 @@
+html {
+  overflow: scroll;
+  margin: auto;
+  height: 100%;
+  width: auto;
+}
+
 body {
-  height: 100vh;
   padding: 0;
   margin: 0;
   overflow: hidden;
@@ -27,6 +33,7 @@ body {
 }
 
 .header {
+  flex: 1;
   margin-bottom: auto;
   display: flex;
   justify-content: space-around;
