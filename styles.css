@@ -126,6 +126,25 @@ button {
 
 .section-three{
   flex: 1;
+  background-color: #e5e7eb;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 600px;
+}
+
+.section-three .quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.section-three .quote-speaker {
+  margin-left: auto;
+  font-weight: 700;
 }
 
 .section-four{
