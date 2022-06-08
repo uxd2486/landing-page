@@ -87,6 +87,7 @@ button {
   border: 2px solid #3882f6;
   border-radius: 6px;
   color: #f9faf8;
+  font-size: 16px;
 }
 
 .section-two {
@@ -145,8 +146,33 @@ button {
 .section-three .quote-speaker {
   margin-left: auto;
   font-weight: 700;
+  font-size: 24px;
 }
 
 .section-four{
+  background-color: #3882F6;
+  margin: 100px 200px;
+  padding: 50px 100px;
+  border-radius: 8px;
+  color: #f9faf8;
   flex: 1;
+  align-self: stretch;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section-four button {
+  border: 2px solid #f9faf8; 
+  border-radius: 6px;
+}
+
+.section-four .text {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-four .call {
+  font-size: 24px;
+  font-weight: 700;
 }
